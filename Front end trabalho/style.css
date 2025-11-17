@@ -1,0 +1,228 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #036186;
+    scroll-behavior: smooth;
+}
+
+
+.custom-navbar {
+    background: linear-gradient(90deg, #0d6efd, #6f42c1);
+}
+
+
+.hero-section {
+    height: 100vh;
+    background: url("img/hero-bg.jpg") center/cover fixed;
+    position: relative;
+}
+
+.hero-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-btn {
+    background: #ffffff;
+    color: #000;
+    padding: 12px 28px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #0d6efd;
+}
+
+
+.tech-card {
+    padding: 25px;
+    background: #fff;
+    text-align: center;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.tech-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+}
+
+
+.team-section {
+    background: #f8f9fa;
+}
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+
+
+.team-card { 
+    text-align: center; 
+    border-radius: 30px;
+    padding: 60px;
+    background: #fff; 
+    transition: 0.3s;
+}
+
+.team-card img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+}
+.team-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    gap: 40px;                
+    flex-wrap: wrap;          
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-form {
+    background: #f0f0ff;
+    border-radius: 12px;
+}
+
+body.dark {
+    background: #121212;
+    color: #e2e2e2;
+}
+
+body.dark .team-card,
+body.dark .tech-card,
+body.dark .contact-form {
+    background: #1e1e1e;
+    color: #fff;
+}
+
+.footer {
+    background: #0d6efd;
+    color: #fff;
+}
+
+.projetos-hero {
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url("img/projetos-bg.jpg") center/cover;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.15);
+}
+
+.project-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 15px;
+}
+
+.modal-custom {
+    border-radius: 12px;
+    padding: 10px;
+}
+.project-card {
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+    color: black;
+    transition: transform 0.3s;
+    height: 380px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; 
+    background-color: #f0f0f0; 
+}
+.project-img-container {
+  width: 180px;       
+  height: 180px;      
+  overflow: hidden;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;    
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-color: #fff; 
+}
+
+.project-img-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; 
+}
+
+body {
+    background-color: #00679b;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.project-card {
+    border-radius: 15px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    color: rgb(7, 0, 71);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.modal-content {
+    color: rgb(4, 0, 61);
+}
